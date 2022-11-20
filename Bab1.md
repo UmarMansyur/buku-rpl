@@ -1,4 +1,9 @@
-# Bab 1 ~ JavaScript
+# Bab I JavaScript
+## Tujuan Pembelajaran
+* Mahasiswa dapat memahami konsep dasar JavaScript
+* Mahasiswa dapat memahami cara penggunaan JavaScript
+* Mahasiswa dapat memahami cara penggunaan JavaScript di Node.js
+
 JavaScript adalah bahasa pemrograman yang digunakan untuk membuat website menjadi dinamis dan lebih interaktif. JavaScript dapat berjalan di berbagai platform, seperti browser, server, dan perangkat seluler. Ketika berbicara tentang web, maka terdapat dua istilah yang sering digunakan, yaitu client-side dan server-side. Client-side adalah kode yang berjalan di browser, sedangkan server-side adalah kode yang berjalan di server. JavaScript dapat berjalan di kedua sisi tersebut.
 
 JavaScript awalnya dikenal dengan nama LiveScript. Namun, karena nama tersebut sudah digunakan oleh Sun Microsystems, maka JavaScript dipilih sebagai nama resminya. JavaScript pertama kali diperkenalkan oleh Netscape pada tahun 1995. Netscape adalah perusahaan yang membuat browser pertama yang mendukung JavaScript. Browser pertama yang mendukung JavaScript adalah Netscape Navigator. JavaScript kemudian diperkenalkan oleh Microsoft pada tahun 1996, dengan nama JScript. JScript merupakan implementasi dari JavaScript yang digunakan oleh Microsoft. Namun, karena JavaScript sudah menjadi standar, maka Microsoft mengubah nama JScript menjadi Microsoft JScript. Pada tahun 1997, Netscape dan Microsoft sepakat untuk menggunakan nama JavaScript sebagai nama resminya. Pada tahun 1999, JavaScript diperkenalkan oleh ECMA International sebagai standar internasional. Pada tahun 2009, JavaScript diperkenalkan oleh ISO sebagai standar internasional.
@@ -22,7 +27,7 @@ Perbedaan antara keyword var dan let terdapat pada scope variabel. Scope variabe
     console.log(nama);
     console.log(umur);
 ```
-<strong>Output:</strong>
+`Output:`
 
 ```js
     Muhammad Umar Mansyur
@@ -228,7 +233,6 @@ Keterangan:
 - Pada contoh di atas, variabel umur diberikan pada keyword switch. Keyword switch akan mengecek nilai dari variabel umur.
 - Pada contoh di atas, nilai pada variabel umur adalah 15. Karena nilai pada variabel umur tidak sesuai dengan nilai pada case, maka akan dilempar ke case default. Pada case default, akan menampilkan teks "Anda masih anak-anak" ke layar.
 - Keyword break digunakan untuk menghentikan proses switch. Jika tidak ada keyword
-
 ## Perulangan
 Perulangan adalah sebuah proses yang akan mengulang suatu kode program tertentu. Jika di ibaratkan dengan manusia, perulangan adalah seperti orang yang akan melakukan suatu pekerjaan berulang-ulang. Contohnya, seperti orang yang melakukan push up sebanyak 12 kali, maka orang tersebut akan push up terus menerus sebelum hitungan ke 12. Perulangan pada JavaScript memiliki 3 jenis, yaitu for, while, dan do while. Berikut ini penjelasan mengenai perulangan for, while, dan do while.
 
@@ -310,11 +314,9 @@ Keterangan:
 - Pada contoh di atas, terdapat variabel i dengan nilai 0.
 - Pada contoh di atas, terdapat kondisi i < 10. Kondisi ini akan mengecek apakah nilai dari variabel i lebih kecil dari 10. Jika iya, maka akan mengulang kode program yang ada di dalam do while. Jika tidak, maka akan menghentikan proses perulangan.
 - Pada contoh di atas, terdapat increment i++. Increment i++ akan menambahkan nilai dari variabel i sebanyak 1. Jika tidak ada increment, maka nilai dari variabel i akan tetap 0 dan perulangan akan terus berjalan.
-
-# Array
+## Array
 Array adalah sebuah variabel yang dapat menampung lebih dari satu nilai. Array pada JavaScript memiliki 2 jenis, yaitu array biasa dan array multidimensi. Berikut ini penjelasan mengenai array biasa dan array multidimensi.
-
-## Array Biasa
+## Array 1 Dimensi
 Array biasa adalah array yang hanya memiliki 1 dimensi. Berikut ini contoh penggunaan array biasa:
 ```js
     let array = [1, 2, 3, 4, 5];
@@ -328,7 +330,6 @@ Array biasa adalah array yang hanya memiliki 1 dimensi. Berikut ini contoh pengg
 Keterangan:
 - Pada contoh di atas, terdapat variabel array yang memiliki 5 nilai.
 - Pada contoh di atas, terdapat kode console.log(array). Kode ini akan menampilkan nilai dari variabel array.
-
 ## Array Multidimensi
 Array multidimensi adalah array yang memiliki lebih dari 1 dimensi. Berikut ini contoh penggunaan array multidimensi:
 ```js
@@ -460,7 +461,6 @@ Jika ingin mengurutkan nilai pada array, maka dapat menggunakan method sort. Ber
     array.sort();
     console.log(array);
 ```
-
 ## Class, Objek, dan Method
 Penulisan kode JavaScript menggunakan Class termasuk pada penulisan OOP. OOP merupakan singkatan dari Object Oriented Programming dalam bahasa Indonesia dikenal dengan Pemrograman Berorientasi Objek. Penulisan kode dengan OOP memiliki beberapa kelebihan, diantaranya:
 - Kode yang lebih mudah dipahami
@@ -638,7 +638,7 @@ Dengan menggunakan keyword static, kita tidak perlu membuat objek untuk mengakse
 ### Abstract dan Interface Class
 Abstract class adalah sebuah class yang tidak dapat di instance. Interface class adalah sebuah class yang hanya berisi method dan properti yang bersifat abstrak. Dalam bahasa pemrograman JavaScript keyword abstract dan interface tidak ada. Untuk membuat sebuah class yang tidak dapat di instance, kita dapat menggunakan keyword static. Untuk membuat sebuah class yang hanya berisi method dan properti yang bersifat abstrak. Contohnya adalah sebegai berikut:
 
-## Polymporphism
+### Polymporphism
 Polymorphis adalah sebuah methoad yang memiliki banyak bentuk. Polymorphis dapat diartikan sebagai sebuah method yang memiliki banyak bentuk. Polymorphis dapat diimplementasikan dengan menggunakan keyword overloading dan overriding. Keyword overloading digunakan untuk membuat method yang memiliki nama yang sama. Sedangkan keyword overriding digunakan untuk membuat method yang memiliki nama yang sama dengan method yang ada di class parent. Contoh penulisan polymorphis pada JavaScript adalah sebagai berikut:
 ```js
     class Mobil {
@@ -739,8 +739,17 @@ Pada contoh kode di atas, promise akan menunggu selama 1 detik untuk menjalankan
 Keterangan:
 - then() digunakan untuk menangani promise yang berhasil dijalankan.
 - catch() digunakan untuk menangani promise yang gagal dijalankan.
-
-# Latihan
+## Kesimpulan
+JavaScript adalah bahasa pemrograman yang berjalan di sisi client. JavaScript memiliki syntaks yang sederhana dan mudah dipelajari. Keunikan dari JavaScript ketimbang bahasa pemrograman yang lain adalah single-threaded. JavaScript dapat menangani kode yang membutuhkan waktu lama untuk dijalankan dengan cara asinkron. JavaScript juga memiliki fitur-fitur yang dapat membantu kita dalam menangani kode yang membutuhkan waktu lama untuk dijalankan seperti async await dan promise.
+## Referensi
+- Beginning JavaScript, 5th Edition, by Paul Wilton, ISBN: 978-1-118-75131-8
+- JavaScript: The Definitive Guide, 7th Edition, by David Flanagan, ISBN: 978-1-449-38394-8
+- Hendra Agil, JavaScript Dasar, 2020, https://www.dicoding.com/academies/123
+- Ahmad Rizal Afani, Belajar Dasar Pemrograman Web, 2020, https://www.dicoding.com/academies/123
+- Heru Sulistiono, Coding Mudah dengan CodeIgniter, Jquery, Bootstrap dan Datatable, (Jakarta: Elex Media Komputindo, 2018)
+- JavaScript: The Good Parts, Douglas Crockford, O'Reilly Media, 2008
+- JavaScript: The Definitive Guide, David Flanagan, O'Reilly Media, 2011
+## Latihan
 1. Buatlah sebuah class dengan nama Mobil yang memiliki property merk dan tipe. Buatlah sebuah class yang mengextends class Mobil dengan nama MobilSport. Buatlah sebuah object dari class MobilSport dan tampilkan property merk dan tipe dari object tersebut.
 2. Buatlah sebuah kalkulator menggunakan inputan terminal!
 3. Buatlah kombinasi dari async await dan promise!
