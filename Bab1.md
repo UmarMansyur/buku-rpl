@@ -207,27 +207,30 @@ Keterangan:
 - Pada contoh di atas, nilai pada variabel umur adalah 15. Karena nilai pada variabel umur lebih kecil dari 18, maka akan menampilkan teks "Anda masih anak-anak" ke layar
  
  Pengkondisian yang selanjutnya adalah dengan menggunakan keyword switch. Keyword switch digunakan untuk mengecek suatu kondisi tertentu. Switch akan mengecek nilai dari variabel yang diberikan. Jika nilai dari variabel tersebut sesuai dengan nilai yang ada pada case, maka akan melakukan aksi yang ada pada case tersebut. Berikut ini contoh penggunaan switch:
-    ```js
-        let umur = 15;
-        switch (umur) {
-            case 21:
-                console.log("Anda sudah dewasa");
-                break;
-            case 18:
-                console.log("Anda sudah remaja");
-                break;
-            case 13:
-                console.log("Anda masih remaja");
-                break;
-            default:
-                console.log("Anda masih anak-anak");
-        }
-    ```
-    <strong>Output:</strong>
+ 
+```js
+let umur = 15;
+switch (umur) {
+    case 21:
+        console.log("Anda sudah dewasa");
+    break;
+    case 18:
+        console.log("Anda sudah remaja");
+    break;
+    case 13:
+        console.log("Anda masih remaja");
+    break;
+    default:
+    console.log("Anda masih anak-anak");
+    break;
+}
+```
+<strong>Output:</strong>
     
-    ```js
+```js
         Anda masih anak-anak
-    ```
+```
+
 Keterangan:
 - Terdapat variabel umur dengan nilai 15.
 - Pada contoh di atas, variabel umur diberikan pada keyword switch. Keyword switch akan mengecek nilai dari variabel umur.
